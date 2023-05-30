@@ -1,6 +1,7 @@
- class Car {
+ class CarClass {
 
     constructor(name){
+        console.log("Car class.")
         this.setOwnerName(name)
     }
 
@@ -25,7 +26,7 @@
     }
 }
 
-export default Car;
+export default CarClass;
 
 // let obj = new Car("Rabby")
 
